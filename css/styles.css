@@ -1,0 +1,115 @@
+/* SiteForge — Generated Styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    color: #1f2937;
+    background: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Block styles */
+.block-hero {
+    padding: 4rem 2rem;
+}
+.block-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.block-hero p {
+    font-size: 1.25rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background: #2563eb;
+    color: #fff;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+.cta-button:hover {
+    background: #1d4ed8;
+    text-decoration: none;
+}
+
+.block-text {
+    max-width: 65ch;
+    margin: 0 auto;
+}
+
+.block-image {
+    margin: 0 auto;
+}
+.block-image img {
+    border-radius: 0.5rem;
+}
+
+.block-nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.block-footer {
+    color: #d1d5db;
+}
+.block-footer a {
+    color: #9ca3af;
+}
+
+.block-cta {
+    text-align: center;
+}
+.block-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.block-columns > * {
+    min-width: 0;
+}
+
+.block-blog-post-list {
+    padding: 2rem;
+    text-align: center;
+    color: #6b7280;
+}
+
+@media (max-width: 768px) {
+    .block-hero h1 {
+        font-size: 1.75rem;
+    }
+    .block-columns {
+        grid-template-columns: 1fr !important;
+    }
+}
